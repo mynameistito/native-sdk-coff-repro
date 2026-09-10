@@ -1,0 +1,11 @@
+{
+  "name": "native-sdk-coff-repro",
+  "private": true,
+  "description": "Minimal Native SDK TypeScript core plus Native markup COFF reproduction.",
+  "dependencies": {
+    "@native-sdk/core": "0.10.1"
+  },
+  "devDependencies": {
+    "@native-sdk/cli": "0.10.1"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.native-sdk.dev/app/v1.json",
+  "id": "dev.native_sdk.coff_repro",
+  "name": "native-sdk-coff-repro",
+  "display_name": "Native SDK COFF Repro",
+  "description": "Minimal TypeScript core plus Native markup Windows build reproduction.",
+  "version": "0.1.0",
+  "platforms": ["windows"],
+  "permissions": ["view"],
+  "capabilities": ["native_views", "gpu_surfaces"],
+  "shell": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Native SDK COFF Repro",
+        "width": 360,
+        "height": 220,
+        "views": [
+          {
+            "label": "main-canvas",
+            "kind": "gpu_surface",
+            "fill": true,
+            "role": "Reproduction view",
+            "accessibility_label": "Native SDK COFF Repro",
+            "gpu_backend": "software",
+            "gpu_pixel_format": "bgra8_unorm",
+            "gpu_present_mode": "timer",
+            "gpu_alpha_mode": "opaque",
+            "gpu_color_space": "srgb",
+            "gpu_vsync": true
+          }
+        ]
+      }
+    ]
+  }
+}

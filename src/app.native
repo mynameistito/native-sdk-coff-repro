@@ -1,0 +1,8 @@
+<column gap="12" padding="16">
+  <text size="heading">Native SDK COFF repro</text>
+  <text>Count: {count}</text>
+  <row gap="8">
+    <button variant="primary" on-press="increment">Increment</button>
+    <button variant="secondary" on-press="reset">Reset</button>
+  </row>
+</column>
