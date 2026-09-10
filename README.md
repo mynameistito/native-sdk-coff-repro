@@ -1,4 +1,5 @@
 # Native SDK COFF reproduction
+Related Issue: https://github.com/vercel-labs/native/issues/433
 
 Minimal Windows Native SDK app with exactly one TypeScript core and one Native markup view:
 
